@@ -1,0 +1,17 @@
+flip{
+    backface-visibility: hidden;
+    transform-origin: 50% 50% 0px;
+    transition: all 3s;
+}
+#signin{
+    transform: rotateY('0deg');
+}
+#signup{
+    transform: rotateY('180deg')
+}
+.flip-signin{
+    transform: rotateY('0deg') !important;
+}
+.flip-signup{
+    transform: rotateY('180deg') !important;
+}
